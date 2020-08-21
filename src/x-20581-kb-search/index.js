@@ -6,7 +6,7 @@ const view = (state, { updateState }) => {
 	return <div>Hello 👋</div>;
 };
 
-createCustomElement("x-20581-knowledge-search", {
+createCustomElement("x-20581-kb-search", {
 	renderer: { type: snabbdom },
 	view,
 	styles,
