@@ -1,8 +1,14 @@
 {
 	"components": {
-	    "x-20581-knowledge-search": {
-	        "innerComponents": []
-	    }
+		"x-20581-kb-search": {
+			"uiBuilder": {
+				"associatedTypes": ["global.core"],
+				"label": "KB Search",
+				"icon": "magnifying-glass-fill",
+				"description": "Search KB Articles"
+			},
+			"innerComponents": ["now-card", "now-icon", "now-modal", "now-loader", "now-button-iconic", "now-rich-text"]
+		}
 	},
 	"scopeName": "x_20581_knowledg_0"
 }

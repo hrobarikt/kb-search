@@ -1,1 +1,1 @@
-import './x-20581-knowledge-search';
+import './x-20581-kb-search';

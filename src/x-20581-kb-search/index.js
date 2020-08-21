@@ -1,7 +1,6 @@
 import { createCustomElement } from "@servicenow/ui-core";
 import snabbdom from "@servicenow/ui-renderer-snabbdom";
 import styles from "./styles.scss";
-import "@servicenow/now-card";
 import "@servicenow/now-icon";
 import "../x-20581-kb-search-results";
 
