@@ -3,6 +3,7 @@ import snabbdom from "@servicenow/ui-renderer-snabbdom";
 import styles from "./styles.scss";
 import "@servicenow/now-card";
 import "@servicenow/now-icon";
+import "../x-20581-kb-search-results";
 
 const view = (state, { updateState }) => {
 	return (
@@ -14,10 +15,9 @@ const view = (state, { updateState }) => {
 					on-input={(e) => updateState({ searchText: e.target.value })}
 				/>
 			</header>
-
-			<now-card>
-				search results for <b>{state.searchText}</b> here
-			</now-card>
+			<x-20581-kb-search-results
+				searchText={state.searchText}
+			></x-20581-kb-search-results>
 		</div>
 	);
 };
