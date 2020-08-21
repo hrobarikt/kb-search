@@ -1,1 +1,30 @@
 @import '@servicenow/sass-kit/host';
+
+:host {
+    display: block;
+    max-width: 30rem;
+    margin: $now-global-space--xl auto;
+
+    header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 $now-global-space--md;
+        border: 1px solid RGB($now-color--divider-tertiary);
+        border-bottom: none;
+    }
+
+    now-icon {
+        margin-right: $now-global-space--sm;
+
+    }
+
+    input {
+        width: 100%;
+        margin: 0;
+        padding: $now-global-space--md 0;
+        border: none;
+        outline: none;
+        font-size: inherit;
+    }
+}
