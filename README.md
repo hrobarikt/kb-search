@@ -1,5 +1,4 @@
-knowledge-search
+kb-search
 ===============================================
+Component for searching KB articles built according to the (TechNow Episode 78)[https://youtu.be/CdFnaYehZPQ]
 
-
-Component Authors, provide some documentation for your users here!
